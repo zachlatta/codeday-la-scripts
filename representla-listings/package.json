@@ -1,0 +1,19 @@
+{
+  "name": "representla-listings",
+  "version": "0.0.0",
+  "description": "Scrape all of the listings on Represent LA",
+  "main": "representla-listings.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zach Latta",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.4.0",
+    "nightmare": "^1.5.0",
+    "underscore": "^1.7.0"
+  },
+  "bin": {
+    "representla-listings": "representla-listings.js"
+  }
+}
